@@ -15,7 +15,7 @@ InstaVote is a web application that allows users to create polls and generate QR
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/instavote.git
+   git clone https://github.com/e-maa/InstaVote-App.git
    cd instavote
    ```
 2. Install dependencies:
@@ -24,12 +24,12 @@ InstaVote is a web application that allows users to create polls and generate QR
    ```
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Usage
 1. Enter your voting question in the input field.
-2. Add contestant names using the "Add +" button.
+2. Add options using the "Add +" button.
 3. Click "Generate QR Code" to create the poll and QR code.
 4. The QR code will be active for 5 minutes. During this time, votes are simulated (in this demo) every 2 seconds.
 5. After 5 minutes, the QR code expires and the results are displayed.
