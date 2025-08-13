@@ -16,7 +16,7 @@ InstaVote is a web application that allows users to create polls and generate QR
 1. Clone the repository:
    ```bash
    git clone https://github.com/e-maa/InstaVote-App.git
-   cd instavote
+   cd InstaVote-App
    ```
 2. Install dependencies:
    ```bash
